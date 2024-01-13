@@ -1,0 +1,84 @@
+.splide__container{box-sizing:border-box;position:relative}.splide__list{backface-visibility:hidden;display:-ms-flexbox;display:flex;height:100%;margin:0!important;padding:0!important}.splide.is-initialized:not(.is-active) .splide__list{display:block}.splide__pagination{-ms-flex-align:center;align-items:center;display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;-ms-flex-pack:center;justify-content:center;margin:0;pointer-events:none}.splide__pagination li{display:inline-block;line-height:1;list-style-type:none;margin:0;pointer-events:auto}.splide:not(.is-overflow) .splide__pagination{display:none}.splide__progress__bar{width:0}.splide{position:relative;visibility:hidden}.splide.is-initialized,.splide.is-rendered{visibility:visible}.splide__slide{backface-visibility:hidden;box-sizing:border-box;-ms-flex-negative:0;flex-shrink:0;list-style-type:none!important;margin:0;position:relative}.splide__slide img{vertical-align:bottom}.splide__spinner{animation:splide-loading 1s linear infinite;border:2px solid #999;border-left-color:transparent;border-radius:50%;bottom:0;contain:strict;display:inline-block;height:20px;left:0;margin:auto;position:absolute;right:0;top:0;width:20px}.splide__sr{clip:rect(0 0 0 0);border:0;height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px}.splide__toggle.is-active .splide__toggle__play,.splide__toggle__pause{display:none}.splide__toggle.is-active .splide__toggle__pause{display:inline}.splide__track{overflow:hidden;position:relative;z-index:0}@keyframes splide-loading{0%{transform:rotate(0)}to{transform:rotate(1turn)}}.splide__track--draggable{-webkit-touch-callout:none;-webkit-user-select:none;-ms-user-select:none;user-select:none}.splide__track--fade>.splide__list>.splide__slide{margin:0!important;opacity:0;z-index:0}.splide__track--fade>.splide__list>.splide__slide.is-active{opacity:1;z-index:1}.splide--rtl{direction:rtl}.splide__track--ttb>.splide__list{display:block}.splide__arrow{-ms-flex-align:center;align-items:center;background:#ccc;border:0;border-radius:50%;cursor:pointer;display:-ms-flexbox;display:flex;height:2em;-ms-flex-pack:center;justify-content:center;opacity:.7;padding:0;position:absolute;top:50%;transform:translateY(-50%);width:2em;z-index:1}.splide__arrow svg{fill:#000;height:1.2em;width:1.2em}.splide__arrow:hover:not(:disabled){opacity:.9}.splide__arrow:disabled{opacity:.3}.splide__arrow:focus-visible{outline:3px solid #0bf;outline-offset:3px}.splide__arrow--prev{left:1em}.splide__arrow--prev svg{transform:scaleX(-1)}.splide__arrow--next{right:1em}.splide.is-focus-in .splide__arrow:focus{outline:3px solid #0bf;outline-offset:3px}.splide__pagination{bottom:.5em;left:0;padding:0 1em;position:absolute;right:0;z-index:1}.splide__pagination__page{background:#ccc;border:0;border-radius:50%;display:inline-block;height:8px;margin:3px;opacity:.7;padding:0;position:relative;transition:transform .2s linear;width:8px}.splide__pagination__page.is-active{background:#fff;transform:scale(1.4);z-index:1}.splide__pagination__page:hover{cursor:pointer;opacity:.9}.splide__pagination__page:focus-visible{outline:3px solid #0bf;outline-offset:3px}.splide.is-focus-in .splide__pagination__page:focus{outline:3px solid #0bf;outline-offset:3px}.splide__progress__bar{background:#ccc;height:3px}.splide__slide{-webkit-tap-highlight-color:rgba(0,0,0,0)}.splide__slide:focus{outline:0}@supports(outline-offset:-3px){.splide__slide:focus-visible{outline:3px solid #0bf;outline-offset:-3px}}@media screen and (-ms-high-contrast:none){.splide__slide:focus-visible{border:3px solid #0bf}}@supports(outline-offset:-3px){.splide.is-focus-in .splide__slide:focus{outline:3px solid #0bf;outline-offset:-3px}}@media screen and (-ms-high-contrast:none){.splide.is-focus-in .splide__slide:focus{border:3px solid #0bf}.splide.is-focus-in .splide__track>.splide__list>.splide__slide:focus{border-color:#0bf}}.splide__toggle{cursor:pointer}.splide__toggle:focus-visible{outline:3px solid #0bf;outline-offset:3px}.splide.is-focus-in .splide__toggle:focus{outline:3px solid #0bf;outline-offset:3px}.splide__track--nav>.splide__list>.splide__slide{border:3px solid transparent;cursor:pointer}.splide__track--nav>.splide__list>.splide__slide.is-active{border:3px solid #000}.splide__arrows--rtl .splide__arrow--prev{left:auto;right:1em}.splide__arrows--rtl .splide__arrow--prev svg{transform:scaleX(1)}.splide__arrows--rtl .splide__arrow--next{left:1em;right:auto}.splide__arrows--rtl .splide__arrow--next svg{transform:scaleX(-1)}.splide__arrows--ttb .splide__arrow{left:50%;transform:translate(-50%)}.splide__arrows--ttb .splide__arrow--prev{top:1em}.splide__arrows--ttb .splide__arrow--prev svg{transform:rotate(-90deg)}.splide__arrows--ttb .splide__arrow--next{bottom:1em;top:auto}.splide__arrows--ttb .splide__arrow--next svg{transform:rotate(90deg)}.splide__pagination--ttb{bottom:0;display:-ms-flexbox;display:flex;-ms-flex-direction:column;flex-direction:column;left:auto;padding:1em 0;right:.5em;top:0}
+
+#lsu_testimony .lsu-testimony-item {
+    font-family: 'Raleway', sans-serif;
+    border-radius: 12px;
+    background: #FFF;
+    /* Box Shadow */
+    box-shadow: 0px 15px 40px 0px rgba(37, 62, 117, 0.10);
+    padding: 40px 30px;
+    text-align: center;
+}
+#lsu_testimony .lsu-testimony-item .lsu-testimony-author-img {
+    margin-bottom: 32px;
+    position: relative;
+    max-width: 100px;
+    margin: 0 auto;
+}
+#lsu_testimony .lsu-testimony-item .lsu-testimony-author-img img {
+    width: 100%;
+    max-width: 100px;
+    height: auto;
+}
+#lsu_testimony .lsu-testimony-item .lsu-testimony-author-img::after {
+    position: absolute;
+    content: '';
+    width: 29px;
+    height: 29px;
+    right: 0;
+    bottom: 0;
+    background: url('data:image/svg+xml,<svg width="30" height="29" viewBox="0 0 30 29" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="15" cy="14.5" r="13.5" fill="%23DD0000" stroke="%23EFEFEF" stroke-width="2"/><g clip-path="url(%23clip0_29_21978)"><path d="M12.6607 13.9915C12.3405 13.8993 12.0203 13.8525 11.7089 13.8525C11.2279 13.8525 10.8266 13.9624 10.5154 14.097C10.8154 12.9988 11.5361 11.1037 12.9717 10.8903C13.1047 10.8705 13.2137 10.7744 13.2499 10.6449L13.5637 9.52266C13.5902 9.42775 13.5745 9.32616 13.5203 9.24379C13.4662 9.16143 13.3792 9.10647 13.2817 9.09311C13.1758 9.07865 13.0677 9.07129 12.9607 9.07129C11.2375 9.07129 9.53087 10.8699 8.81074 13.4453C8.38801 14.9563 8.26405 17.2279 9.30533 18.6576C9.88801 19.4577 10.7381 19.8849 11.832 19.9276C11.8365 19.9278 11.8409 19.9279 11.8454 19.9279C13.1951 19.9279 14.392 19.0189 14.7561 17.7175C14.9736 16.9396 14.8753 16.1237 14.479 15.4197C14.0869 14.7235 13.4413 14.2161 12.6607 13.9915Z" fill="white"/><path d="M21.1097 15.4198C20.7177 14.7235 20.072 14.2161 19.2914 13.9915C18.9713 13.8993 18.6511 13.8525 18.3398 13.8525C17.8588 13.8525 17.4573 13.9624 17.1462 14.097C17.4462 12.9988 18.1668 11.1037 19.6026 10.8903C19.7356 10.8705 19.8444 10.7744 19.8808 10.6449L20.1946 9.52266C20.221 9.42775 20.2054 9.32616 20.1512 9.24379C20.0972 9.16143 20.0102 9.10647 19.9126 9.09311C19.8068 9.07865 19.6988 9.07129 19.5916 9.07129C17.8683 9.07129 16.1617 10.8699 15.4415 13.4453C15.0189 14.9563 14.8949 17.2279 15.9363 18.6579C16.5189 19.4578 17.3691 19.8852 18.4629 19.9278C18.4674 19.9279 18.4718 19.928 18.4764 19.928C19.826 19.928 21.023 19.019 21.3871 17.7177C21.6043 16.9397 21.5059 16.1237 21.1097 15.4198Z" fill="white"/></g><defs><clipPath id="clip0_29_21978"><rect width="13" height="13" fill="white" transform="translate(8.5 8)"/></clipPath></defs></svg>');
+    background-repeat: no-repeat;
+    background-size: contain;
+    /* background: red; */
+    z-index: 99;
+}
+#lsu_testimony .lsu-testimony-item .lsu-testimony-author-review {
+    color: #5D6878;
+    text-align: center;
+    /* Typography/P2/P2-Regular */
+    font-family: Raleway;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5em; /* 150% */
+    margin-block: 32px;
+
+}
+#lsu_testimony .lsu-testimony-item .lsu-testimony-author-name {
+    color: #001B44;
+    text-align: center;
+
+    /* Typography/H4/H4-Bold */
+    font-family: Raleway;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.41em; /* 141.667% */
+    margin-bottom: 2px;
+}
+
+#lsu_testimony .splide__arrows .splide__arrow {
+    width: 40px;
+    height: 40px;
+    border-radius: 22px;
+    background: #FFE7E7;
+    transition: all 170ms ease-in-out;
+    opacity: 1;
+}
+#lsu_testimony .splide__arrows .splide__arrow:hover {
+    background: #D00;
+}
+#lsu_testimony .splide__arrows .splide__arrow svg * {
+    transition: all 170ms ease-in-out;
+}
+#lsu_testimony .splide__arrows .splide__arrow:hover svg * {
+    fill: #ffffff;
+}
+#lsu_testimony .splide__arrows .splide__arrow.splide__arrow--prev {
+    transform: rotate(180deg);
+    left: -72px;
+}
+#lsu_testimony .splide__arrows .splide__arrow.splide__arrow--next {
+    right: -72px;
+}
